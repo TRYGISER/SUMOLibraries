@@ -1,6 +1,7 @@
-MS_BASE=E:\builds\..\sdk\vc15\mapserver-7-0 
+MS_BASE=E:\builds\..\sdk\vc15x64\mapserver-7-0 
 THREADS=-DUSE_THREAD 
 MSVC_VER=1911 
+WIN64=YES 
 SWIG=E:\builds\SWIG-1.3.39\swig.exe 
 GD_DIR=E:\builds\gd-2.0.35 
 GD_LIB=E:\builds\gd-2.0.35\gd.lib 
@@ -15,7 +16,7 @@ PNG_LIB=E:\builds\libpng-1.2.35\libpng.lib E:\builds\zlib-1.2.3\zdll.lib
 RGBA_PNG_ENABLED=-DUSE_RGBA_PNG 
 GDAL=-DUSE_GDAL 
 OGR=-DUSE_OGR 
-GDAL_DIR=E:\builds\..\sdk\vc15\gdal-2.2\gdal 
+GDAL_DIR=E:\builds\..\sdk\vc15x64\gdal-2.2\gdal 
 FCGIDEF=-DUSE_FASTCGI 
 FCGIDIR=E:\builds\fcgi-2.4.0 
 PDF=-DUSE_PDF 
@@ -34,7 +35,7 @@ WINSOCK_LIB =WS2_32.Lib
 WFSCLIENT= -DUSE_WFS_LYR 
 WFS=-DUSE_WFS_SVR 
 WCS=-DUSE_WCS_SVR 
-JAVA_HOME=C:\Java\jdk1.8.0_144 
+JAVA_HOME=C:\Java\jdk1.8.0_144x64 
 REGEX_DIR=E:\builds\regex-0.12 
 AGG=-DUSE_AGG 
 AGG_DIR=E:\builds\agg-2.4 
@@ -44,13 +45,13 @@ FONTCONFIG_DIR=E:\builds\fontconfig-2.12.4
 POSTGIS=-DUSE_POSTGIS 
 POSTGIS_DIR=E:\builds\postgresql-9.1.2 
 ICONV=-DUSE_ICONV 
-ICONV_DIR=E:\builds\release-1911 
+ICONV_DIR=E:\builds\release-1911-x64 
 SOS=-DUSE_SOS_SVR 
 XML2_ENABLED=-DUSE_LIBXML2 
-LIBXML_DIR=E:\builds\release-1911 
-INCLUDES = -Irenderers\agg\include -IE:\builds\release-1911\include \
+LIBXML_DIR=E:\builds\release-1911-x64 
+INCLUDES = -Irenderers\agg\include -IE:\builds\release-1911-x64\include \
 -IE:\builds\regex-0.12 
-EXTERNAL_LIBS = /LIBPATH:E:\builds\release-1911\lib gd.lib libpng.lib libjpeg.lib \
+EXTERNAL_LIBS = /LIBPATH:E:\builds\release-1911-x64\lib gd.lib libpng.lib libjpeg.lib \
 proj_i.lib \
 libxml2.lib \
 iconv.lib \

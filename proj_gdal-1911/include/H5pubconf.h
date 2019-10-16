@@ -613,7 +613,7 @@
 
 #if !defined(__APPLE__)
 /* The size of `size_t', as computed by sizeof. */
-#define H5_SIZEOF_SIZE_T 4
+#define H5_SIZEOF_SIZE_T 8
 
 /* The size of `ssize_t', as computed by sizeof. */
 /* #undef H5_SIZEOF_SSIZE_T */

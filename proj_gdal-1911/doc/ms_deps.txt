@@ -6,7 +6,7 @@ proj-4.8
 freetype-2.4.11 
 geos-3.4 
 libpng-1.2.35 
-..\sdk\vc15\gdal-2.2\gdal 
+..\sdk\vc15x64\gdal-2.2\gdal 
 fcgi-2.4.0 
 PDFlib-Lite-7.0.4p1 
 fribidi-0.19.2 

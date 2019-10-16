@@ -2,19 +2,19 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <CustomBuild Include="C:\Libraries\gl2ps-1.4.0\CMakeLists.txt" />
-    <CustomBuild Include="C:\Libraries\gl2ps-1.4.0\CMakeFiles\3f2dfbda6bd4450d62cace225ecc9598\gl2ps.pdf.rule">
+    <CustomBuild Include="C:\Libraries\gl2ps-1.4.0_64\CMakeFiles\0618c3694eff7ea6c248cc8b9a78f06c\gl2ps.pdf.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Libraries\gl2ps-1.4.0\CMakeFiles\3c66f6077a07c791e07cb2a5bb53bf94\pdf.rule">
+    <CustomBuild Include="C:\Libraries\gl2ps-1.4.0_64\CMakeFiles\8f31fab7d25b44a2ed9a0732f083f403\pdf.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Libraries\gl2ps-1.4.0\CMakeFiles\pdf" />
+    <None Include="C:\Libraries\gl2ps-1.4.0_64\CMakeFiles\pdf" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{64707E7C-8F12-3477-B76B-794E512D66A6}</UniqueIdentifier>
+      <UniqueIdentifier>{2F1902C4-BEF5-3CD1-95A6-70478A7AFCF8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
